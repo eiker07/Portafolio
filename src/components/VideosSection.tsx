@@ -15,12 +15,12 @@ export function VideosSection() {
     },
     {
       title: "Dejá de perder tiempo.",
-      description: "Conoce lo que no te cuentan",
+      description: "Tutorial de programación", 
       url: "https://www.youtube.com/watch?v=FlO796ke0AI"
     },
     {
       title: "Mirá esto ANTES de aprender a PROGRAMAR.",
-      description: "Tutorial de programación",
+      description: "Conoce lo que no te cuentan",
       src: "image\\Porquédejélauniversidad.jpg", // Esta no se va a usar
       url: "https://www.youtube.com/watch?v=c2EJRboAYL4"
     },
