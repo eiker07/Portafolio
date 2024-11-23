@@ -30,7 +30,7 @@ export const PassionSection: React.FC = () => {
               <h3 className="text-2xl font-bold">Programar</h3>
             </div>
             <img
-              src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcndzNjFibWhiaDNuYm9qejVkano1Njl6c2g0Mjk3MGp1enV0YTl5ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uGmCqU0C3Op44AkjBh/giphy.gif"
+              src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNTBremNuY3FycG1wOWM0YWN1cjBqeXUybnNkdzV6ZDJnZ2g5dTFkaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/W9n5Ai83YXNkhQ1iXm/giphy.webp"
               alt="Programming"
               className="w-full h-64 object-cover rounded-lg mb-4"
             />
