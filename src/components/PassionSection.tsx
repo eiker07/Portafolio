@@ -30,7 +30,7 @@ export const PassionSection: React.FC = () => {
               <h3 className="text-2xl font-bold">Programar</h3>
             </div>
             <img
-              src="src\components\Programar2.gif"
+              src="public\images\Programar2.gif"
               alt="Programming"
               className="w-full h-64 object-cover rounded-lg mb-4"
             />
