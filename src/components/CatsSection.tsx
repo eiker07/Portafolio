@@ -16,7 +16,7 @@ export function CatsSection() {
           </div>
           <div className="bg-violet-900/50 rounded-lg p-6 hover:transform hover:scale-105 transition-all">
             <img
-              src="public\images\Guitarra.gif"
+              src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDdzdnU4MXRxNmUxZWJyMTI2ZzV5cGw0cXMzMHppcmg2OHc1b2t0eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/h9ZC8XTM1INUK7rADh/giphy.gif"
               alt="Cat coding"
               className="w-full h-48 object-cover rounded-lg mb-4"
             />

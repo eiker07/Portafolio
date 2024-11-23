@@ -23,7 +23,7 @@ export const Programming: React.FC = () => {
         {/* Sección izquierda: GIF */}
         <div className="flex justify-center">
           <img
-            src="public\images\Perfil.jpg"
+            src="https://yt3.googleusercontent.com/EzwByq0nx04aGU-RrndLOC05vM4oBMAKGeoleTxrRn3DraAMqbUh6eFHsyRlCkmAoax3yOnk=s176-c-k-c0x00ffffff-no-rj-mo"
             alt="Programming GIF"
             className="w-64 h-64 md:w-80 md:h-80 rounded-lg shadow-lg"
           />

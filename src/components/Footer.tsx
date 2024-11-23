@@ -7,7 +7,7 @@ export function Footer() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center gap-4">
           <img
-            src="public\images\Footer.gif"
+            src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOW96NzZ0ZWM5b3FsaHV0c2V3bzMzczF3YTZ6bGNianlreTJ4cmRybiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uGmCqU0C3Op44AkjBh/giphy.webp"
             alt="Guitar concert"
             className="max-w-sm rounded-lg shadow-lg mb-4"
           />
