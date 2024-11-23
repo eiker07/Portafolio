@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-violet-900;
+  }
+}
+
+@layer utilities {
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@layer components {
+  .container {
+    @apply px-4 sm:px-6 lg:px-8 mx-auto max-w-7xl;
+  }
+  
+  .section-padding {
+    @apply py-12 sm:py-16 md:py-20;
+  }
+  
+  .card {
+    @apply bg-violet-900/50 rounded-lg p-6 transition-all duration-300;
+  }
+  
+  .card-hover {
+    @apply hover:transform hover:scale-105 hover:shadow-xl;
+  }
+}
