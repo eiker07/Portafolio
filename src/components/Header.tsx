@@ -45,15 +45,21 @@ export function Header() {
 
       <div className="grid md:grid-cols-2 gap-4 items-center">
         <div className="space-y-4">
-        <h1 className="text-5xl font-bold leading-tight">
-        Bienvenido a mi Página <br />
-      <span className="text-violet-300">-Dot Dager</span>
-      </h1>
-          <p className="text-xl text-violet-200 italic">
+          <h1 className="text-5xl font-bold leading-tight">
+            Bienvenido a mi Página <br />
+            <span className="text-violet-300">-Dot Dager</span>
+          </h1>
+
+          {/* Contenedor con altura fija y animación suave */}
+          <p
+            className="text-xl text-violet-200 italic transition-all duration-300 ease-in-out"
+            style={{ minHeight: '3em', display: 'flex', alignItems: 'center' }}
+          >
             {currentPhrase}
             <span className="text-violet-300">|</span>
           </p>
         </div>
+
         <div className="rounded-full overflow-hidden shadow-2xl">
           <img
             src="https://yt3.googleusercontent.com/KPVok_m-JqxKG5wD7HaXc5RyYDPPHHZpQP4KquV8fD9er0mGEkZ_9UuQojBehXz6aCxUt0RI=s900-c-k-c0x00ffffff-no-rj"
@@ -65,3 +71,4 @@ export function Header() {
     </header>
   );
 }
+
